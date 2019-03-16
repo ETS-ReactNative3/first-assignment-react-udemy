@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import UserOutput from './UserOutput';
+import UserOutput from '../UserOutput/UserOutput';
 import './User.css';
 
-class UserInput extends Component {
+class userInput extends Component {
     state = {
         users : [
             { name: 'Chirag'}
@@ -29,4 +29,4 @@ class UserInput extends Component {
 }
 
 
-export default UserInput;
+export default userInput;

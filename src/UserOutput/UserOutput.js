@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UserOutput = (props) => {
+const userOutput = (props) => {
         const style = {
             color: 'blue',
             fontSize: '20px'
@@ -12,4 +12,4 @@ const UserOutput = (props) => {
         );
 }
 
-export default UserOutput;
+export default userOutput;
